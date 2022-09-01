@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  z-index: 1;
+  padding: 28px 0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 20px rgba(72, 3, 38, 0.07);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  width: 300px;
+  height: 65px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  background: #00C78B;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 880px){
+  .wrapper {
+    justify-content: center;
+  }
+  .buttons {
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  .button{
+    width: 220px;
+    height: 45px;
+    font-size: 14px;
+  } 
+}
