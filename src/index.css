@@ -29,6 +29,10 @@ body {
   padding-bottom: 17px;
 }
 
+li {
+  list-style: none; 
+}
+
 button {
   cursor: pointer;
 }
